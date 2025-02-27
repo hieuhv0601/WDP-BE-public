@@ -16,7 +16,7 @@ import { UpdateMediaDto } from '../dto/request/update-media.dto';
 import { MediaResponseDto } from '../dto/response/media-response.dto';
 
 import { ResponseDTO } from 'src/utils/response.dto';
-import { LoggingInterceptor } from 'src/common/interceptors/logging.interceptor';
+import { LoggingInterceptor } from '@/common/interceptors/logging.interceptor';
 import { MediaService } from '../serivce/media.service';
 
 @Controller('media')

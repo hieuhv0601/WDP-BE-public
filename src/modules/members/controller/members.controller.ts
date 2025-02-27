@@ -18,6 +18,7 @@ import { CreateSpouseDto } from '../dto/request/create-spouse.dto';
 import { CreateChildDto } from '../dto/request/create-child.dto';
 import { LoggingInterceptor } from 'src/common/interceptors/logging.interceptor';
 
+
 @Controller('members')
 @UseInterceptors(ClassSerializerInterceptor,LoggingInterceptor) // Enable auto-serialization
 export class MembersController {
