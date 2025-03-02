@@ -16,7 +16,7 @@ import { MemberDTO } from '../dto/response/member.dto';
 import { ResponseDTO } from '../../../utils/response.dto';
 import { CreateSpouseDto } from '../dto/request/create-spouse.dto';
 import { CreateChildDto } from '../dto/request/create-child.dto';
-import { LoggingInterceptor } from 'src/common/interceptors/logging.interceptor';
+import { LoggingInterceptor } from '@/common/interceptors/logging.interceptor';
 
 
 @Controller('members')

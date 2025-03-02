@@ -11,7 +11,7 @@ import {
 import { EventsService } from '../service/events.service';
 import { CreateEventDto } from '../dto/request/create-event.dto';
 import { UpdateEventDto } from '../dto/request/update-event.dto';
-import { LoggingInterceptor } from 'src/common/interceptors/logging.interceptor';
+import { LoggingInterceptor } from '@/common/interceptors/logging.interceptor';
 
 
 @Controller('events')

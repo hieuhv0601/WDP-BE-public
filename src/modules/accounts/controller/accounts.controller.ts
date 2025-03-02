@@ -1,7 +1,7 @@
 import {
   Controller, Get, Post, Put, Delete, Param, Body, Patch, UseInterceptors
 } from '@nestjs/common';
-import { LoggingInterceptor } from 'src/common/interceptors/logging.interceptor';
+import { LoggingInterceptor } from '@/common/interceptors/logging.interceptor';
 import { winstonLogger as logger } from 'src/common/winston-logger';
 import { AccountsService } from '../service/accounts.service';
 import { CreateAccountDto } from '../dto/request/create-account.dto';
